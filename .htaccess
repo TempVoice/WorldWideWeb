@@ -3,4 +3,3 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
-Redirect 301 /root/test.html http://www.beispiel.de/beispiel.html
