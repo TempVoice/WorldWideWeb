@@ -1774,35 +1774,6 @@ a {
 .cid-sP8bSJ4esu .list {
   color: #ffffff;
 }
-.cid-sPeSQuNm2D {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #18191c;
-}
-.cid-sPeSQuNm2D ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 2.5rem;
-}
-.cid-sPeSQuNm2D li {
-  position: relative;
-  margin-bottom: 1rem;
-}
-.cid-sPeSQuNm2D ul li::before {
-  position: absolute;
-  left: -1.6rem;
-  content: "\2022";
-  color: #5865f2;
-  font-weight: bold;
-  font-size: 2rem;
-  width: 1.6rem;
-}
-.cid-sPeSQuNm2D H3 {
-  color: #ffffff;
-}
-.cid-sPeSQuNm2D .list {
-  color: #ffffff;
-}
 .cid-sPvey1dPhQ {
   padding-top: 2rem;
   padding-bottom: 2rem;
