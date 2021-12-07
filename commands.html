@@ -67,7 +67,7 @@
                     <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5">
                         <strong>/channel</strong></h3>
                 <ul class="list mbr-fonts-style display-7">
-                    <li><strong>name</strong><br>Change the name of your temporary voice channel ¹</li>
+                    <li><strong>name</strong><br>Change the name of your temporary voice channel ²</li>
                     <li><strong>limit</strong><br>Change the user limit of your temporary your voice channel</li>
                     <li><strong>mode</strong><br>Change the mode of your temporary voice channel</li>
                     <li><strong>region</strong><br>Change the region of your temporary voice channel</li><li><strong>claim</strong><br>Claim a temporary voice channel to gain the ownership of it</li><li><strong>transfer</strong><br>Transfer the ownership of your temporary voice channel to another user</li><li><strong>reset</strong><br>Reset the config of your temporary voice channel</li>
@@ -98,7 +98,7 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content14 cid-sP8bSJ4esu" id="config">
+<section data-bs-version="5.1" class="content14 cid-sP8bSJ4esu" id="creator">
     
     
     
@@ -106,11 +106,11 @@
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                     <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5">
-                        <strong>/config</strong></h3>
+                        <strong>/creator</strong></h3>
                 <ul class="list mbr-fonts-style display-7">
-                    <li><strong>setup<br></strong>Setup the bot to create all required channel</li><li><strong>command</strong><br>Deactivate or reactivate a command for your users</li>
-                    <li><strong>limit</strong><br>Forces all temporary voice channels to use a specific user limit</li>
-                    <li><strong>name</strong><br>Forces all temporary voice channels to use a specific name ²</li><li><strong>channel</strong><br>Choose a voice channel that should be used to create temporary voice channels</li><li><strong>category</strong><br>Choose a category that should be used to create temporary voice channels</li><li><strong>whitelist</strong><br>Choose a role that should be able to access temporary voice channels</li><li><strong>blacklist</strong><br>Choose a role that should not be able to access temporary voice channels</li><li><strong>mode</strong><br>Choose how temporary voice channels should be created</li><li><strong>show</strong><br>Will show you the current config</li><li><strong>reset</strong><br>Reset the config of the bot</li>
+                    <li><strong>add<br></strong>Create a new creation channel for temporary voice channels ¹</li><li><strong>remove</strong><br>Remove a creator channel which you dont want to use anymore</li><li><strong>command</strong><br>Deactivate or reactivate a command for your users</li>
+                    <li><strong>limit</strong><br>Forces all temporary voice channels of a creator channel to use a specific user limit</li>
+                    <li><strong>name</strong><br>Forces all temporary voice channels of a creator channel to use a specific name ³</li><li><strong>category</strong><br>Choose a category of a creator channel that should be used to arrange temporary voice channels</li><li><strong>whitelist</strong><br>Choose a role that should be able to access temporary voice channels</li><li><strong>blacklist</strong><br>Choose a role that should not be able to access temporary voice channels</li><li><strong>mode</strong><br>Choose how temporary voice channels should be created</li><li><strong>config</strong><br>Will show you the current config</li>
                 </ul>
             </div>
         </div>
@@ -128,8 +128,8 @@
                 <div class="card-wrapper">
                     <div class="card-box align-left">
                         <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-5">
-                            <strong>1</strong></h4>
-                        <p class="mbr-text mbr-fonts-style display-7">Voice channel can be only renamed every 10 minutes. We have to set this 10 minutes cooldown to avoid a rate limit from discord.</p>
+                            <strong>1. What are creation channels?</strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">Creation channels are used to create temporary voice channels by joining into them. After that the user will be moved into a newly created voice channel&nbsp;</p>
                         
                     </div>
                 </div>
@@ -149,8 +149,29 @@
                 <div class="card-wrapper">
                     <div class="card-box align-left">
                         <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-5">
-                            <strong>2</strong></h4>
-                        <p class="mbr-text mbr-fonts-style display-7">Use {OWNER} as placeholder for the user name of the temporary channel owner.</p>
+                            <strong>2. Why is there a rename limit?</strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">Voice channel can be only renamed every 10 minutes. We have to set this 10 minutes cooldown to avoid a rate limit from discord.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content15 cid-sQW8rGtjbl" id="content15-1w">
+
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-md-12 col-lg-10">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-5">
+                            <strong>3. Can I use user names as a forced name?</strong></h4>
+                        <p class="mbr-text mbr-fonts-style display-7">Yes. Use {OWNER} as placeholder for the user name of the temporary channel owner.</p>
                         
                     </div>
                 </div>
