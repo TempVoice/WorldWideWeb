@@ -812,7 +812,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(24, 25, 28, 0.2);
+  background: rgba(24, 25, 28, 0);
 }
 .cid-sP7zp4COyP .navbar.opened {
   transition: all 0.3s;
@@ -1060,8 +1060,8 @@ a {
 }
 .cid-sR1ZZ1MAiR {
   padding-top: 10rem;
-  padding-bottom: 1rem;
-  background-color: #18191c;
+  padding-bottom: 10rem;
+  background-image: url("../../../assets/images/bg-1-2000x1125.png");
 }
 .cid-sR1ZZ1MAiR .image-wrap img {
   width: 100%;
@@ -1070,7 +1070,7 @@ a {
   .cid-sR1ZZ1MAiR .image-wrap img {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 60%;
   }
 }
 .cid-sR1ZZ1MAiR .mbr-section-title {
@@ -1083,7 +1083,7 @@ a {
   text-align: center;
 }
 .cid-sPC90tji5m {
-  padding-top: 4rem;
+  padding-top: 0rem;
   padding-bottom: 3rem;
   background-color: #18191c;
 }
@@ -1457,31 +1457,7 @@ a {
 }
 .cid-sPvey1dPhQ .media-container-row .mbr-text {
   text-align: center;
-  color: #18191c;
-}
-.cid-qWF5VpsMeF .progress-container {
-  z-index: 20000;
-  position: fixed;
-  width: 100%;
-  height: 5px;
-  background: #18191c;
-  top: 85px;
-}
-.cid-qWF5VpsMeF .progress-bar {
-  height: 5px;
-  background: #5865f2;
-  width: 0%;
-}
-.cid-qWF5VpsMeF .sticky2 {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-.cid-qWF5VpsMeF .hidden {
-  display: none;
-}
-.cid-qWF5VpsMeF H10 {
-  color: #767676;
+  color: #ffffff;
 }
 .cid-sP7zp4COyP .navbar-dropdown {
   position: relative !important;
@@ -1588,7 +1564,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(24, 25, 28, 0.2);
+  background: rgba(24, 25, 28, 0);
 }
 .cid-sP7zp4COyP .navbar.opened {
   transition: all 0.3s;
@@ -2142,7 +2118,7 @@ a {
 }
 .cid-sPvey1dPhQ .media-container-row .mbr-text {
   text-align: center;
-  color: #18191c;
+  color: #ffffff;
 }
 .cid-sSUaAYW5rU .progress-container {
   z-index: 20000;
@@ -2273,7 +2249,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(24, 25, 28, 0.2);
+  background: rgba(24, 25, 28, 0);
 }
 .cid-sP7zp4COyP .navbar.opened {
   transition: all 0.3s;
@@ -2693,7 +2669,7 @@ a {
 }
 .cid-sPvey1dPhQ .media-container-row .mbr-text {
   text-align: center;
-  color: #18191c;
+  color: #ffffff;
 }
 .cid-sSUaxj4IKr .progress-container {
   z-index: 20000;
@@ -2824,7 +2800,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(24, 25, 28, 0.2);
+  background: rgba(24, 25, 28, 0);
 }
 .cid-sRMfcpcg3V .navbar.opened {
   transition: all 0.3s;
@@ -3270,7 +3246,7 @@ a {
 }
 .cid-sRMfcsGYIF .media-container-row .mbr-text {
   text-align: center;
-  color: #18191c;
+  color: #ffffff;
 }
 .cid-sSUaCeDUmy .progress-container {
   z-index: 20000;
@@ -3401,7 +3377,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(24, 25, 28, 0.2);
+  background: rgba(24, 25, 28, 0);
 }
 .cid-sR69Hcg8Ci .navbar.opened {
   transition: all 0.3s;
@@ -4530,7 +4506,7 @@ a {
 }
 .cid-sR69HfpkjZ .media-container-row .mbr-text {
   text-align: center;
-  color: #18191c;
+  color: #ffffff;
 }
 .cid-sSUazliznd .progress-container {
   z-index: 20000;
@@ -4661,7 +4637,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(24, 25, 28, 0.2);
+  background: rgba(24, 25, 28, 0);
 }
 .cid-sSHB7eijSv .navbar.opened {
   transition: all 0.3s;
@@ -5050,7 +5026,7 @@ a {
 }
 .cid-sSHB7ePLsR .media-container-row .mbr-text {
   text-align: center;
-  color: #18191c;
+  color: #ffffff;
 }
 .cid-sSNqZ7a06X .navbar-dropdown {
   position: relative !important;
@@ -5157,7 +5133,7 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   position: absolute;
-  background: rgba(24, 25, 28, 0.2);
+  background: rgba(24, 25, 28, 0);
 }
 .cid-sSNqZ7a06X .navbar.opened {
   transition: all 0.3s;
@@ -5535,5 +5511,5 @@ a {
 }
 .cid-sSNqZ9c8nF .media-container-row .mbr-text {
   text-align: center;
-  color: #18191c;
+  color: #ffffff;
 }
