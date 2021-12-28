@@ -1459,95 +1459,6 @@ a {
   text-align: center;
   color: #18191c;
 }
-.cid-TiaLjniRnp .progress-container {
-  z-index: 20000;
-  position: fixed;
-  width: 100%;
-  height: 4px;
-  background: #18191c;
-  top: 70px;
-}
-.cid-TiaLjniRnp .progress-bar {
-  height: 4px;
-  background: #5865f2;
-  width: 0%;
-}
-.cid-TiaLjniRnp .sticky2 {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-.cid-TiaLjniRnp .hidden {
-  display: none;
-}
-.cid-TiaLjniRnp H10 {
-  color: #767676;
-}
-.cid-XCCRRkOJki input,
-.cid-XCCRRkOJki textarea,
-.cid-XCCRRkOJki button,
-.cid-XCCRRkOJki select,
-.cid-XCCRRkOJki a {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.cid-XCCRRkOJki .wrap {
-  position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  bottom: 50;
-  right: 0;
-  padding-right: 20px;
-  background-color: #1e2228;
-  z-index: 2;
-  visibility: visible;
-}
-.cid-XCCRRkOJki .copyright {
-  position: fixed;
-  z-index: 1;
-  visibility: visible;
-  margin-left: 10px;
-  left: 0;
-  padding-left: 20px;
-}
-@media (min-width: 768px) {
-  .cid-XCCRRkOJki .wrap {
-    justify-content: flex-end;
-  }
-}
-@media (max-width: 768px) {
-  .cid-XCCRRkOJki .wrap {
-    justify-content: space-around;
-    padding-right: 0px;
-  }
-  .cid-XCCRRkOJki .copyright {
-    visibility: hidden;
-  }
-}
-.cid-XCCRRkOJki .item {
-  border-radius: 50%;
-  font-size: 30px;
-  font-height: 100%;
-  text-align: center;
-  vertical-align: middle;
-  padding: 10px;
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-}
-.cid-XCCRRkOJki .hidden {
-  display: none;
-}
-.cid-XCCRRkOJki .show {
-  visibility: visible !important;
-  bottom: 0;
-}
-.cid-XCCRRkOJki .mbr-section-subtitle {
-  color: #ffffff;
-}
 .cid-sP7zp4COyP .navbar-dropdown {
   position: relative !important;
 }
@@ -2209,30 +2120,6 @@ a {
   text-align: center;
   color: #18191c;
 }
-.cid-sSHy2ylorC .progress-container {
-  z-index: 20000;
-  position: fixed;
-  width: 100%;
-  height: 4px;
-  background: #18191c;
-  top: 70px;
-}
-.cid-sSHy2ylorC .progress-bar {
-  height: 4px;
-  background: #5865f2;
-  width: 0%;
-}
-.cid-sSHy2ylorC .sticky2 {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-.cid-sSHy2ylorC .hidden {
-  display: none;
-}
-.cid-sSHy2ylorC H10 {
-  color: #767676;
-}
 .cid-sP7zp4COyP .navbar-dropdown {
   position: relative !important;
 }
@@ -2759,30 +2646,6 @@ a {
 .cid-sPvey1dPhQ .media-container-row .mbr-text {
   text-align: center;
   color: #18191c;
-}
-.cid-sSHy5flE2z .progress-container {
-  z-index: 20000;
-  position: fixed;
-  width: 100%;
-  height: 4px;
-  background: #18191c;
-  top: 70px;
-}
-.cid-sSHy5flE2z .progress-bar {
-  height: 4px;
-  background: #5865f2;
-  width: 0%;
-}
-.cid-sSHy5flE2z .sticky2 {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-.cid-sSHy5flE2z .hidden {
-  display: none;
-}
-.cid-sSHy5flE2z H10 {
-  color: #767676;
 }
 .cid-sRMfcpcg3V .navbar-dropdown {
   position: relative !important;
@@ -3336,30 +3199,6 @@ a {
 .cid-sRMfcsGYIF .media-container-row .mbr-text {
   text-align: center;
   color: #18191c;
-}
-.cid-sSHy0PXnQW .progress-container {
-  z-index: 20000;
-  position: fixed;
-  width: 100%;
-  height: 4px;
-  background: #18191c;
-  top: 70px;
-}
-.cid-sSHy0PXnQW .progress-bar {
-  height: 4px;
-  background: #5865f2;
-  width: 0%;
-}
-.cid-sSHy0PXnQW .sticky2 {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-.cid-sSHy0PXnQW .hidden {
-  display: none;
-}
-.cid-sSHy0PXnQW H10 {
-  color: #767676;
 }
 .cid-sR69Hcg8Ci .navbar-dropdown {
   position: relative !important;
@@ -4596,30 +4435,6 @@ a {
 .cid-sR69HfpkjZ .media-container-row .mbr-text {
   text-align: center;
   color: #18191c;
-}
-.cid-sSHy42t0Ec .progress-container {
-  z-index: 20000;
-  position: fixed;
-  width: 100%;
-  height: 4px;
-  background: #18191c;
-  top: 70px;
-}
-.cid-sSHy42t0Ec .progress-bar {
-  height: 4px;
-  background: #5865f2;
-  width: 0%;
-}
-.cid-sSHy42t0Ec .sticky2 {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-.cid-sSHy42t0Ec .hidden {
-  display: none;
-}
-.cid-sSHy42t0Ec H10 {
-  color: #767676;
 }
 .cid-sSHB7eijSv .navbar-dropdown {
   position: relative !important;
