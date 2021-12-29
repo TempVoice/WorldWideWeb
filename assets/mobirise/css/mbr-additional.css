@@ -1459,6 +1459,30 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.cid-sSZ6iPXUOm .progress-container {
+  z-index: 20000;
+  position: fixed;
+  width: 100%;
+  height: 5px;
+  background: transparent;
+  top: 85px;
+}
+.cid-sSZ6iPXUOm .progress-bar {
+  height: 5px;
+  background: #5865f2;
+  width: 0%;
+}
+.cid-sSZ6iPXUOm .sticky2 {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.cid-sSZ6iPXUOm .hidden {
+  display: none;
+}
+.cid-sSZ6iPXUOm H10 {
+  color: #767676;
+}
 .cid-sP7zp4COyP .navbar-dropdown {
   position: relative !important;
 }
@@ -1916,37 +1940,6 @@ a {
 .cid-sRH4eYaB38 .panel-text {
   color: #bbbbbb;
 }
-.cid-sRH2lEleyn {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #18191c;
-}
-.cid-sRH2lEleyn .card .card-header {
-  background-color: transparent;
-  margin-bottom: 0;
-}
-.cid-sRH2lEleyn .panel-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.cid-sRH2lEleyn .mbr-iconfont {
-  padding-left: 1rem;
-  font-family: 'Moririse2' !important;
-  font-size: 1.4rem !important;
-  color: #5865f2;
-}
-.cid-sRH2lEleyn .panel-body,
-.cid-sRH2lEleyn .card-header {
-  padding: 1rem 0;
-}
-.cid-sRH2lEleyn .panel-title-edit {
-  color: #ffffff;
-  text-align: left;
-}
-.cid-sRH2lEleyn .panel-text {
-  color: #bbbbbb;
-}
 .cid-sRH5jtZSdz {
   padding-top: 6rem;
   padding-bottom: 0rem;
@@ -2125,7 +2118,7 @@ a {
   position: fixed;
   width: 100%;
   height: 5px;
-  background: #18191c;
+  background: transparent;
   top: 85px;
 }
 .cid-sSUaAYW5rU .progress-bar {
@@ -2676,7 +2669,7 @@ a {
   position: fixed;
   width: 100%;
   height: 5px;
-  background: #18191c;
+  background: transparent;
   top: 85px;
 }
 .cid-sSUaxj4IKr .progress-bar {
@@ -3253,7 +3246,7 @@ a {
   position: fixed;
   width: 100%;
   height: 5px;
-  background: #18191c;
+  background: transparent;
   top: 85px;
 }
 .cid-sSUaCeDUmy .progress-bar {
@@ -4513,7 +4506,7 @@ a {
   position: fixed;
   width: 100%;
   height: 5px;
-  background: #18191c;
+  background: transparent;
   top: 85px;
 }
 .cid-sSUazliznd .progress-bar {
