@@ -9,28 +9,43 @@
 
 <url>
   <loc>https://www.tempvoice.xyz/</loc>
-  <lastmod>2021-11-19T21:44:21+00:00</lastmod>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.tempvoice.xyz/setup</loc>
-  <lastmod>2021-11-19T21:44:21+00:00</lastmod>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tempvoice.xyz/guides</loc>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.tempvoice.xyz/commands</loc>
-  <lastmod>2021-11-19T21:44:21+00:00</lastmod>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.tempvoice.xyz/setup.html</loc>
-  <lastmod>2021-11-19T21:44:21+00:00</lastmod>
+  <loc>https://www.tempvoice.xyz/privacy-policy</loc>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.tempvoice.xyz/commands.html</loc>
-  <lastmod>2021-11-19T21:44:21+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.tempvoice.xyz/terms-of-service</loc>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tempvoice.xyz/premium</loc>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tempvoice.xyz/privacy-policy.html</loc>
+  <lastmod>2021-12-30T21:23:56+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
