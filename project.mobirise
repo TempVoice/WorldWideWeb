@@ -71,7 +71,7 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/clean-01-128x128.png",
-    "mbrsiteDomain": "p73yhavr7w",
+    "mbrsiteDomain": "vdjejx4tu9",
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
@@ -83,9 +83,9 @@
       "colorButton": "#ffffff",
       "colorLink": "#47b5ed",
       "underlineLink": true,
-      "opacity": "33",
+      "opacity": "42",
       "opacityOverlay": "80",
-      "text": "This website uses cookies to ensure you get the best experience on our website. <a href='privacy-policy.html'>Learn more</a>",
+      "text": "This website uses cookies to ensure you get the best experience on our website. <a href='privacy-policy'>Learn more</a>",
       "textButton": "Got it"
     },
     "gdpr": false,
@@ -887,7 +887,7 @@
               "object-fit": "cover"
             },
             ".card-title": {
-              "color": "#eb459e",
+              "color": "#5865f2",
               "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn": {
