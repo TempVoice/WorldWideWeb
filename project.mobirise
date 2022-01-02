@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-18_1412",
-    "currentPage": "premium.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -105,7 +105,8 @@
         "meta_descr": "TempVoice is the most user-friendly and advanced bot for temporary voice channels on Discord. Allow everyone to have their own temporary place on a Discord server.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/kofi-1-2000x1000.png"
       },
       "components": [
         {
