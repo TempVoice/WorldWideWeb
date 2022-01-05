@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-18_1412",
-    "currentPage": "landing.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -66,7 +66,7 @@
         "file": "@PROJECT_PATH@/fonts/BAHNSCHRIFT/font.TTF"
       }
     ],
-    "uniqCompNum": 239,
+    "uniqCompNum": 250,
     "versionPublish": "5.5.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -102,7 +102,7 @@
       "settings": {
         "main": true,
         "title": "TempVoice | Temporary Voice Channels",
-        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot which also supports multi languages.",
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -1141,8 +1141,8 @@
     "commands.html": {
       "settings": {
         "title": "TempVoice | Bot Commands",
-        "order": 5,
-        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot which also supports multi languages."
+        "order": 6,
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages."
       },
       "components": [
         {
@@ -1993,8 +1993,8 @@
     "setup.html": {
       "settings": {
         "title": "TempVoice | Bot Setup",
-        "order": 3,
-        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot which also supports multi languages."
+        "order": 4,
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages."
       },
       "components": [
         {
@@ -2696,8 +2696,8 @@
     "premium.html": {
       "settings": {
         "title": "TempVoice | Premium",
-        "order": 2,
-        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot which also supports multi languages."
+        "order": 3,
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages."
       },
       "components": [
         {
@@ -3403,11 +3403,11 @@
     "guides.html": {
       "settings": {
         "title": "TempVoice | Bot Guides",
-        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot which also supports multi languages.",
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -5116,8 +5116,8 @@
     "privacy-policy.html": {
       "settings": {
         "title": "TempVoice | Privacy",
-        "order": 6,
-        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot which also supports multi languages."
+        "order": 7,
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages."
       },
       "components": [
         {
@@ -5777,8 +5777,8 @@
     "terms-of-service.html": {
       "settings": {
         "title": "TempVoice | Terms of Service",
-        "order": 7,
-        "meta_descr": "TempVoice is the most user-friendly and advanced bot for temporary voice channels on Discord. Allow everyone to have their own temporary place on a Discord server."
+        "order": 8,
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages."
       },
       "components": [
         {
@@ -6414,11 +6414,11 @@
     "landing.html": {
       "settings": {
         "title": "TempVoice | Landing",
-        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot which also supports multi languages.",
+        "meta_descr": "Customizable Temporary Voice Channels used to organize your Discord. Most user-friendly bot available in multiple languages.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
