@@ -67,11 +67,11 @@
       }
     ],
     "uniqCompNum": 329,
-    "versionPublish": "5.6.1",
+    "versionPublish": "5.6.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/clean-01-128x128.png",
-    "mbrsiteDomain": "vdjejx4tu9",
+    "mbrsiteDomain": "dcpodbu3xg",
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
