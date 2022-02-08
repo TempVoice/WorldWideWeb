@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-11-18_1412",
-    "currentPage": "index.html",
+    "currentPage": "landing.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -26,7 +26,7 @@
         "isRoundedButtons": true,
         "isGhostButtonBorder": false,
         "underlinedLinks": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
