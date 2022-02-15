@@ -12,15 +12,14 @@
   
   <title>TempVoice | Questions</title>
   <link rel="stylesheet" href="assets/material-design/css/material-icons.min.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link href="assets/fonts/style.css" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
@@ -58,103 +57,207 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="content16 cid-sUqgwoVFXW" id="content16-82">
+<section data-bs-version="5.1" class="content4 cid-sXrZC2SPdj" id="content4-9a">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-11">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>QUESTIONS</strong></h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content6 cid-sXrZCHszLW" id="content6-9b">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                <hr class="line">
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">Are temporary voice channels able to sync permissions?<br></p>
+                <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXrZWqx8aK" id="content5-9e">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">This is not possible, because otherwise core features like trusted and blocked user lists of the bot would not be possible anymore. You still can set manually a role which is always trusted or blocked with the command <a href="https://www.tempvoice.xyz/commands#config" class="text-primary">/config role</a>.
+<br>
+<br><a href="https://www.tempvoice.xyz/commands#config" class="text-primary">Trusted Role</a>:
+<br>Can always join tempoary voice channels even if they are locked, hidden or the user is blocked. Recommend for a server team role.
+<br>
+<br><a href="https://www.tempvoice.xyz/commands#config" class="text-primary">Blocked Role</a>:
+<br>Is not able to see tempoary voice channels. Recommend for a timeout role.
+<br>
+<br><a href="https://www.tempvoice.xyz/commands#config" class="text-primary">Member Role</a>:
+<br>Will be used instead of @everyone for the privacy feature. Locked mode will deny CONNECT permission and hidden will deny VIEW CHANNEL permission.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content6 cid-sXrZVtZIJs" id="content6-9d">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                <hr class="line">
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">How can I integrate my verification system?<br></p>
+                <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXs0u5HtpL" id="content5-9f">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">You use a member role for all verified users?
+<br>- Just set a member role with /config role.
+<br>
+<br>You use a unverified member role?
+<br>- Just set a blocked role with /config role.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content6 cid-sXs1a6qCRX" id="content6-9g">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                <hr class="line">
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">Why are emojis not displayed in the bot messages?<br></p>
+                <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXs1aBBQod" id="content5-9h">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">The response message of slash command are webhooks and not a message from the bot client itself. Webhook permissions are managed by the @everyone role so you have to allow access for @everyone to use EXTERNAL EMOJIS.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content6 cid-sXs1jykKVd" id="content6-9i">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                <hr class="line">
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">Why do I need to wait 10 minutes to rename, claim, transfer again?<br></p>
+                <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXs1jUCJI4" id="content5-9j">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">Here is the full announcement made by Mason#1337, a member of the Discord Staff:
+<br>
+<br>"The new rate limit for channel NAME AND TOPIC updates is 2 updates per 10 minutes, per channel."
+<br>
+<br>
+<br>See the full message here on the Discord developers server.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content6 cid-sXs1sNDwjI" id="content6-9k">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                <hr class="line">
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">Why cannot the bot delete its own messages after X seconds?  <br></p>
+                <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXs1tL7sIb" id="content5-9l">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">TempVoice is build to guarantee the best possible performance. Adding such feature would result in slower processes speed.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content6 cid-sXs1BwBmNh" id="content6-9m">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                <hr class="line">
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-5">How to change the name of the creator, interface or category channel?<br></p>
+                <hr class="line">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content5 cid-sXs1C37hjD" id="content5-9n">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-11">
+                
+                
+                <p class="mbr-text mbr-fonts-style display-7">Simply right click those channels in and select the option "Edit Channel".</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content15 cid-sXxnBDq9qa" id="content15-9o">
 
     
 
     
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-12">
-                <div class="mbr-section-head align-center mb-4">
-                    <h3 class="mbr-section-title mb-0 mbr-fonts-style display-2">
-                        Questions?
-                    </h3>
-                    
-                </div>
-                <div id="bootstrap-accordion_69" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_69" aria-expanded="false" aria-controls="collapse1">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5">Are temporary voice channels able to sync permissions?</h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                            </a>
-                        </div>
-                        <div id="collapse1_69" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_69">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4">This is not possible, because otherwise core features like trusted and blocked user lists of the bot would not be possible anymore.<br>You still can set manually a role which is always trusted or blocked with the command <a href="https://www.tempvoice.xyz/commands#config" class="text-primary">/config role</a>. <br><br>- Trusted Role: Can always join tempoary voice channels even if they are locked, hidden or the user is blocked. Recommend for a server team role.<br>- Blocked Role: Is not able to see&nbsp;tempoary voice channels. Recommend for a timeout role.<br>- Member Role: Will be used instead of @everyone for the privacy feature. Locked mode will deny CONNECT permission and hidden will deny VIEW CHANNEL permission.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_69" aria-expanded="false" aria-controls="collapse2">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5">How can I change default name &amp; limit?</h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                            </a>
-                        </div>
-                        <div id="collapse2_69" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_69">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4">Take a look at these guides: <a href="https://www.tempvoice.xyz/guides#name" class="text-primary">Change Default Name</a>, <a href="https://www.tempvoice.xyz/guides#limit" class="text-primary">Change Default Limit</a>.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_69" aria-expanded="false" aria-controls="collapse3">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5">How can I integrate my verification system?</h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                            </a>
-                        </div>
-                        <div id="collapse3_69" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_69">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4">You use a member role for all verified users?<br>- Just set a <strong>member role</strong> with <a href="https://www.tempvoice.xyz/commands#config" class="text-primary">/config role</a>.<br><br>You use a unverified member role?<br>- Just set a <strong>blocked role</strong> with <a href="https://www.tempvoice.xyz/commands#config" class="text-primary">/config role</a>.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_69" aria-expanded="false" aria-controls="collapse4">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5">Why are emojis not displayed in the bot messages?</h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                            </a>
-                        </div>
-                        <div id="collapse4_69" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_69">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4">The response message of slash command are webhooks and not a message from the bot client itself. Webhook permissions are managed by the @everyone role so you have to allow access for @everyone to use EXTERNAL EMOJIS.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_69" aria-expanded="false" aria-controls="collapse5">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5">Why do I need to wait 10 minutes to rename, claim, transfer again?</h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                            </a>
-                        </div>
-                        <div id="collapse5_69" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_69">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4">Here is the full announcement made by Mason#1337, a member of the Discord Staff:<br><br><a href="https://discord.com/channels/613425648685547541/697138785317814292/715995470048264233" class="text-primary">Hi everyone--wanted to make official note of the rate limit change on channel updates that was deployed yesterday. While most of you won't notice anything at all, there are known and unknown use cases that this effects.
-</a><br><a href="https://discord.com/channels/613425648685547541/697138785317814292/715995470048264233" class="text-primary">The new rate limit for channel NAME AND TOPIC updates is 2 updates per 10 minutes, per channel. (Sorry that was unclear at first)
-</a><br><a href="https://discord.com/channels/613425648685547541/697138785317814292/715995470048264233" class="text-primary">
-</a><br><a href="https://discord.com/channels/613425648685547541/697138785317814292/715995470048264233" class="text-primary">This is reflected in the normal rate limits headers so no library changes should need to happen.
-</a><br><a href="https://discord.com/channels/613425648685547541/697138785317814292/715995470048264233" class="text-primary">For a bit of context, frequent channel updates have significant impact on our infrastructure and performance, especially in the case of large guilds and mobile clients, hence the limit changes.</a><br></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse6_69" aria-expanded="false" aria-controls="collapse6">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5">Why cannot the bot delete its own messages after X seconds?&nbsp;&nbsp;</h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                            </a>
-                        </div>
-                        <div id="collapse6_69" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_69">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-4">
-                                    TempVoice is build to guarantee the best possible performance. Adding such feature would result in slower processes speed.</p>
-                            </div>
-                        </div>
+            <div class="card col-md-12 col-lg-12">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-5"><strong>Questions? Ask them on the support server!</strong></h4>
+                        
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="https://tempvoice.xyz/support" target="_blank">Join here</a></div>
                     </div>
                 </div>
             </div>
@@ -215,7 +318,7 @@
         </div>
 
     </div>
-</section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 <input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#ffffff' data-cookie-colorBg='rgba(32, 28, 28, 0.42)' data-cookie-textButton='Got it' data-cookie-colorButton='#ffffff' data-cookie-colorLink='#47b5ed' data-cookie-underlineLink='true' data-cookie-text="This website uses cookies to ensure you get the best experience on our website. <a href='privacy-policy'>Learn more</a>">
