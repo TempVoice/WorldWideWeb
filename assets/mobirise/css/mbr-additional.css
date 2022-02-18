@@ -1160,67 +1160,61 @@ a {
 .cid-sPC90tji5m .item-subtitle {
   text-align: left;
 }
-.cid-sUl62S5m5Z {
+.cid-sXOjvZ0tlW {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
   background-color: #18191c;
 }
-.cid-sUl62S5m5Z img,
-.cid-sUl62S5m5Z .item-img {
+.cid-sXOjvZ0tlW img,
+.cid-sXOjvZ0tlW .item-img {
   width: 100%;
 }
-.cid-sUl62S5m5Z .item:focus,
-.cid-sUl62S5m5Z span:focus {
+.cid-sXOjvZ0tlW .item:focus,
+.cid-sXOjvZ0tlW span:focus {
   outline: none;
 }
-.cid-sUl62S5m5Z .item {
+.cid-sXOjvZ0tlW .item {
   cursor: pointer;
   margin-bottom: 2rem;
 }
-.cid-sUl62S5m5Z .item-wrapper {
+.cid-sXOjvZ0tlW .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #22252b;
+  background: #18191c;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
 }
 @media (min-width: 992px) {
-  .cid-sUl62S5m5Z .item-wrapper .item-content {
-    padding: 2rem 2rem 0;
-  }
-  .cid-sUl62S5m5Z .item-wrapper .item-footer {
-    padding: 0 2rem 2rem;
+  .cid-sXOjvZ0tlW .item-wrapper .item-content {
+    padding: 2rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-sUl62S5m5Z .item-wrapper .item-content {
-    padding: 1rem 1rem 0;
-  }
-  .cid-sUl62S5m5Z .item-wrapper .item-footer {
-    padding: 0 1rem 1rem;
+  .cid-sXOjvZ0tlW .item-wrapper .item-content {
+    padding: 1rem;
   }
 }
-.cid-sUl62S5m5Z .mbr-section-btn {
+.cid-sXOjvZ0tlW .mbr-section-btn {
   margin-top: auto !important;
 }
-.cid-sUl62S5m5Z .mbr-section-title {
+.cid-sXOjvZ0tlW .mbr-section-title {
   color: #ffffff;
   text-align: left;
 }
-.cid-sUl62S5m5Z .mbr-text,
-.cid-sUl62S5m5Z .mbr-section-btn {
-  text-align: left;
+.cid-sXOjvZ0tlW .mbr-text,
+.cid-sXOjvZ0tlW .mbr-section-btn {
+  text-align: center;
   color: #ffffff;
 }
-.cid-sUl62S5m5Z .item-title {
-  text-align: left;
+.cid-sXOjvZ0tlW .item-title {
+  text-align: center;
   color: #5865f2;
 }
-.cid-sUl62S5m5Z .item-subtitle {
+.cid-sXOjvZ0tlW .item-subtitle {
   text-align: left;
 }
-.cid-sUl62S5m5Z .mbr-section-subtitle {
+.cid-sXOjvZ0tlW .mbr-section-subtitle {
   text-align: center;
   color: #ffffff;
 }
