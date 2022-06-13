@@ -1,42 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.tempvoice.xyz/</loc>
-  <lastmod>2022-05-21T21:31:23+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.tempvoice.xyz/questions</loc>
-  <lastmod>2022-05-21T21:31:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tempvoice.xyz/config</loc>
-  <lastmod>2022-05-21T21:31:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tempvoice.xyz/usage</loc>
-  <lastmod>2022-05-21T21:31:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tempvoice.xyz/privacy-policy</loc>
-  <lastmod>2022-05-21T21:31:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.tempvoice.xyz/commands</loc>
-  <lastmod>2022-05-21T21:31:23+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.tempvoice.xyz/index.html</loc>
+	</url>
+	<url>
+		<loc>https://www.tempvoice.xyz/privacy-policy.html</loc>
+	</url>
+	<url>
+		<loc>https://www.tempvoice.xyz/terms-of-service.html</loc>
+	</url>
+	<url>
+		<loc>https://www.tempvoice.xyz/landing.html</loc>
+	</url>
 </urlset>
