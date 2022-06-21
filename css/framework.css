@@ -192,15 +192,15 @@
   color: #ffffff;
 }
 .btn.action-1:hover {
-  background-color: #877BFB;
+  background-color: #807BFF;
 }
 .btn.action-2 {
-  background-color: #877BFB;
+  background-color: #807BFF;
   color: #ffffff;
 }
 
 .btn.fancy-button {
-  background-color: #877BFB;
+  background-color: #807BFF;
   color: #ffffff;
 
   text-align:center;
@@ -215,7 +215,7 @@
 }
 
 .btn.action-2:hover {
-  background-color: #877BFB;
+  background-color: #807BFF;
 }
 .btn.action-3 {
   background-color: #f96854;
@@ -227,7 +227,7 @@
 }
 .btn.action-white {
   background-color: #ffffff;
-  color: #877BFB;
+  color: #807BFF;
 }
 .btn.action-white:hover {
   background-color: #e6e6e6;
@@ -347,7 +347,7 @@
 }
 
 .fancy-button.color-1 {
-  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  background-image: linear-gradient(to right, #807BFF, #FB73FA, #807BFF, #FB73FA);
   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
@@ -12326,14 +12326,14 @@ input[type=radio] + label:before {
 
 /* Colors */
 .action-1 {
-  color: #877BFB;
+  color: #807BFF;
 }
 .action-1.link:hover {
   color: #e88000;
 }
 
 .action-2 {
-  color: #877BFB;
+  color: #807BFF;
 }
 .action-2.link:hover {
   color: #7266db;
