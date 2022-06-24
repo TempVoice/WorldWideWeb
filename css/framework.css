@@ -979,7 +979,8 @@ input[type=radio] + label:before {
 
 .foreground {
   -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  backdrop-filter: saturate(180%) blur(8px);
+  background-color: #18191c10;
 } 
 
 /* Slider stylers */
