@@ -192,7 +192,7 @@
   color: #ffffff;
 }
 .btn.action-1:hover {
-  background-color: #807BFF;
+  background-color: #b877fd;
 }
 .btn.action-2 {
   background-color: #807BFF;
@@ -12387,6 +12387,13 @@ input[type=radio] + label:before {
 }
 .color-red.link:hover {
   color: #c72113;
+}
+
+.color-tv-blue {
+  color: #877bfb;
+}
+.color-tv-purple {
+  color: #b877fd;
 }
 
 .color-twitter {
