@@ -35,6 +35,8 @@
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<!-- Bootstrap-Icons) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
 		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 		<!-- FontAwesome CSS -->
@@ -70,7 +72,7 @@
 			</div>
 		</div>
 		<!-- Header 1 -->
-		<header class="pt-195 pb-110 bg-light header_1">
+		<header class="pt-160 pb-110 bg-light header_1">
 			<nav class="header_menu_1 pt-20 pb-20 sticky foreground">
 				<div class="container px-xl-0">
 					<div class="row justify-content-center align-items-center f-18 medium">
@@ -92,8 +94,15 @@
 				</div>
 			</nav>
 			<div class="container">
-				<h1 class="big text-center gradient-header">Redefined Voice Channels</h1>
-				<div class="mw-800 mx-auto mt-30 f-22 color-heading text-center text-adaptive">Voice channels are an essential part of Discord but it can be difficult to customize them for all needs. Temporary voice channels offer the solution to have the right channel for each purpose.</div>
+				<div class="text-center h1 bold" style="font-size: 70px;"><b class="gradient-header">Temporary</b>
+					<div id="typed-strings">
+						<p>Voice Channels</p>
+						<p>Threads</p>
+						<p>Stages</p>
+					</div>
+					<span id="typed"></span>
+				</div>
+				<div class="mw-800 mx-auto mt-30 f-22 color-heading text-center text-adaptive">Voice channels are an essential part of Discord but these can become messy over time. Temporary channels offer the top-notch solution to have a dynamic channel for all your needs and a clean discord server.</div>
 				<div class="mw-600 mx-auto mt-30 f-22 text-center">
 					<img src="i/Featured Banner Website.png" alt="TempVoice Example" class="img-fluid mt-30 mt-md-0" />
 				</div>
@@ -106,8 +115,53 @@
 			</div>
 		</header>
 
+		<!-- Application 23 -->
+		<section class="pt-50 pb-100 bg-light application_21" id="highlighted-1">
+			<div class="container px-xl-0">
+				<div class="mb-md-5 row justify-content-between align-items-center align-items-xl-start">
+					<div class="col-md-7 col-xl-6">
+						<div class="pb-15 color-heading f-22 medium op-7"><div>TempVoice philosophy</div></div>
+						<h2 class="text-adaptive">Temporary Instead of Permanent!</h2>
+					</div>
+				</div>
+				<div class="mt-20 mt-md-0 row">
+					<div class="mt-30 col-md-4 no-gutters">
+						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">Voice Channels</div>
+						<div class="pb-15 color-main f-32 bold">Temporary Voices</div>
+						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
+							A Temporary voice channel can be fully customized by the channel owner and will be deleted when everyone leaved.
+						</div>
+						</div>
+					</div>
+					<div class="mt-30 col-md-4 no-gutters">
+						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">Thread Channels</div>
+						<div class="pb-15 color-main f-32 bold">Temporary Threads</div>
+						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
+							A Temporary thread can be used as a private chat and will be deleted when the voice gets deleted.
+						</div>
+						</div>
+					</div>
+					<div class="mt-30 col-md-4 no-gutters">
+						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">Stage Channels</div>
+						<div class="pb-15 color-main f-32 bold">Temporary Stages</div>
+						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
+							A Temporary stage can be used to create your own events and will deleted when everyone leaved.
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="mt-30 mb-md-5 row justify-content-between align-items-center align-items-xl-start">
+					<div class="col-md-7 col-xl-6">
+						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-blue"><div>Creator Channels</div></div>
+						<div class="pb-15 color-main f-32 bold">How to create temporary channels?</div>
+						<p class="text-adaptive">With <b>Creator Channels</b>. A <b>Creator Channel</b> is like a normal voice channel with the difference that after joining, a new channel is created which is temporary. Temporary threads are linked to voice/stage channels and will also be deleted when they are empty.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- Application 21 -->
-		<section class="pt-100 pb-100 bg-light application_21" id="highlighted-1">
+		<section class="pt-50 pb-100 bg-light application_21" id="highlighted-2">
 			<div class="container px-xl-0">
 				<div class="row justify-content-between align-items-center align-items-xl-start">
 					<div class="col-md-7">
@@ -158,87 +212,25 @@
 		</section>
 
 		<!-- Application 21 -->
-		<section class="pt-100 pb-100 bg-light application_21">
+		<section class="pt-50 pb-100 bg-light application_21">
 			<div class="container px-xl-0">
 				<div class="mb-md-5 row justify-content-between align-items-center align-items-xl-start">
 					<div class="col-md-7 col-xl-6">
 						<div class="pb-15 color-heading f-22 medium op-7"><div>TempVoice Core Features</div></div>
 						<h2 class="text-adaptive">Made for every <br> Discord user!</h2>
 					</div>
-					<div class="col-md-5 col-xl-6">
-						<img src="i/Featured Banner Website 2.png" srcset="i/application_21_img_1@2x.png 2x" alt="" class="img-fluid mt-30 mt-md-0" />
-					</div>
 				</div>
-				<div class="mt-20 mt-md-0 row">
-					<div class="mt-30 col-md-4 no-gutters">
-						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">01</div>
-						<div class="pb-15 color-main f-32 bold">Customization</div>
-						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
-							Customize your own voice channel by editing name, limit, bitrate, region and privacy for locking and hiding.
-						</div>
-						</div>
+				<div class="mt-30 row f-18 medium color-heading text-center text-md-left blocks">
+					<div class="mt-30 col-md-6 text-adaptive"><i style="padding-right: 15px;" class="bi bi-pencil-square f-30 color-tv-purple"></i><span class="h3 bold">Customization</span><br><br>Customize your own voice channel by editing name, limit, bitrate, region and privacy for locking and hiding.
 					</div>
-					<div class="mt-30 col-md-4 no-gutters">
-						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">02</div>
-						<div class="pb-15 color-main f-32 bold">Moderation</div>
-						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
-							Moderate your own voice channel by kicking, trusting and blocking users. Trust Moderators users are also able to help you.
-						</div>
-						</div>
-					</div>
-					<div class="mt-30 col-md-4 no-gutters">
-						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">03</div>
-						<div class="pb-15 color-main f-32 bold">Recreation</div>
-						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
-							All adjustments made on your own channel are saved. This means that your voice channel will be exactly restored as you left them.
-						</div>
-						</div>
+					<div class="mt-30 col-md-6 text-adaptive"><i style="padding-right: 15px;" class="bi bi-person-fill f-30 color-tv-purple"></i><span class="h3 bold">Moderation</span><br><br>Moderate your own voice channel by kicking, inviting, trusting and blocking users. Trust Moderators users are also able to help you.
 					</div>
 				</div>
 			</div>
 		</section>
-
-		<!-- Application 23 -->
-		<section class="pt-100 pb-100 bg-light application_21">
-			<div class="container px-xl-0">
-				<div class="mb-md-5 row justify-content-between align-items-center align-items-xl-start">
-					<div class="col-md-7 col-xl-6">
-						<div class="pb-15 color-heading f-22 medium op-7"><div>TempVoice philosophy</div></div>
-						<h2 class="text-adaptive">Temporary Instead of Permanent!</h2>
-					</div>
-				</div>
-				<div class="mt-20 mt-md-0 row">
-					<div class="mt-30 col-md-4 no-gutters">
-						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">01</div>
-						<div class="pb-15 color-main f-32 bold">Temporary Voices</div>
-						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
-							A Temporary voice channel can be fully customized by the channel owner and will be deleted when everyone leaved.
-						</div>
-						</div>
-					</div>
-					<div class="mt-30 col-md-4 no-gutters">
-						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">02</div>
-						<div class="pb-15 color-main f-32 bold">Temporary Threads</div>
-						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
-							A Temporary thread can be used as a private chat and will be deleted when the voice gets deleted.
-						</div>
-						</div>
-					</div>
-					<div class="mt-30 col-md-4 no-gutters">
-						<div class="pb-10 color-heading f-14 bold text-uppercase sp-20 color-tv-purple">03</div>
-						<div class="pb-15 color-main f-32 bold">Temporary Stages</div>
-						<div class="col-xl-9 color-heading f-18 medium op-7 text-adaptive">						<div>
-							A Temporary stage can be used to create your own events and will deleted when everyone leaved.
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
 
 		<!-- Application 22 -->
-		<section class="pt-100 pb-100 bg-light application_21">
+		<section class="pt-50 pb-100 bg-light application_21">
 			<div class="container px-xl-0">
 				<div class="row justify-content-between align-items-center align-items-xl-start">
 					<div class="col-md-7">
@@ -388,5 +380,15 @@
 		<script src="js/jquery.maskedinput.min.js"></script>
 		<!-- Startup 3 JS (Custom js for all blocks) -->
 		<script src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed('#typed', {
+			  	stringsElement: '#typed-strings',
+			  	typeSpeed: 110,
+				backSpeed: 40,
+            	backDelay: 1600,
+                loop: true,
+			});
+		</script>
 	</body>
 </html>

@@ -347,7 +347,7 @@
 }
 
 .fancy-button.color-1 {
-  background-image: linear-gradient(to right, #807BFF, #FB73FA, #807BFF, #FB73FA);
+  background-image: linear-gradient(to right, #807BFF, #FB73FA, #807BFF);
   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
@@ -12422,7 +12422,7 @@ input[type=radio] + label:before {
   background-color: #18191c !important;
 }
 .bg-dark {
-  background-color: #101010 !important;
+  background-color: #22252b !important;
 }
 .bg-main {
   background-color: #2e2e2e;

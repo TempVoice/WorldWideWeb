@@ -4973,7 +4973,7 @@ b, strong {
 }
 
 .gradient-header {
-  background: linear-gradient(to right, #807BFF, #FB73FA, #807BFF, #FB73FA);
+  background: linear-gradient(to right, #807BFF, #FB73FA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
