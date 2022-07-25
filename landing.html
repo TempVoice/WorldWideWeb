@@ -45,20 +45,20 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 		<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.addEventListener("load",function(){window.wpcc.init({"corners":"small","colors":{"popup":{"background":"#222222","text":"#ffffff","border":"#d9baea"},"button":{"background":"#d9baea","text":"#000000"}},"content":{"href":"https://www.tempvoice.xyz/privacy-policy","message":"This website uses essential cookies to work like intended. "},"position":"bottom-right"})});</script>
-	</head>
+	</head> 
 	<body>
 		<!-- Navigation 8 -->
 		<a href="index.html" class="open_menu">
 			<img src="i/icon.png" class="foreground radius_full" alt="TempVoice Icon" style="height: 3.3rem;">
 		</a>
 		<div class="navigation_mobile bg-dark type1">
-			<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
+			<a class="close_menu color-white"><i class="fas fa-times"></i></a>
 			<div class="px-40 pt-60 pb-60 inner">
 				<div class="logo color-white mb-30 gradient-header">TempVoice</div>
 				<div><a href="index.html" class="f-heading f-22 link color-white mb-20">Start</a></div>
 				<div><a href="https://docs.tempvoice.xyz/introduction/questions" target="_blank" class="f-heading f-22 link color-white mb-20">Questions</a></div>		
 				<div><a href="https://docs.tempvoice.xyz/introduction/commands" target="_blank" class="f-heading f-22 link color-white mb-20">Commands</a></div>
-				<div><a href="https://docs.tempvoice.xyz/" target="_blank" class="f-heading f-22 link color-white mb-20">Documentation</a></div>
+				<div><a href="https://docs.tempvoice.xyz/" target="_blank" class="f-heading f-22 link color-white mb-20">Documentation</a></div>	
 				<div><a href="https://tempvoice.xyz/setup" target="_blank" class="link color-white op-3 mb-15">Invite</a></div>
 				<div><a href="https://tempvoice.xyz/support" target="_blank" class="link color-white op-3 mb-15">Support</a></div>
 				<div><a href="https://patreon.com/tempvoice" target="_blank" class="link color-white op-3 mb-15">Patreon</a></div>
@@ -68,14 +68,14 @@
 				
 				<div class="mt-50 f-14 light color-white op-3 copy">&copy; 2022 TempVoice. All rights reserved.</div>
 			</div>
-		</div>		
+		</div>
 		<!-- Header 1 -->
-		<header class="pt-195 pb-110 bg-light header_1">
+		<header class="pt-130 pb-110 bg-light header_1">
 			<nav class="header_menu_1 pt-20 pb-20 sticky foreground">
 				<div class="container px-xl-0">
 					<div class="row justify-content-center align-items-center f-18 medium">
 						<div class="col-lg-3 logo">
-							<a href="index.html">
+							<a href=index.html>
 								<img src="i/icon.png" alt="TempVoice Icon" style="height: 3.3rem;">
 							</a>
 						</div>
@@ -92,13 +92,21 @@
 				</div>
 			</nav>
 			<div class="container">
-				<h1 class="big text-center gradient-header">Welcome to TempVoice</h1>
-				<div class="mw-800 mx-auto mt-30 f-22 color-heading text-center text-adaptive">Here are some links that might help you get started. Make sure to join our support server to stay up to date.</div>
-				<div class="mw-800 mx-auto mt-30 f-22 color-heading text-center text-adaptive">Start the setup assistent with <strong class="color-tv-purple">/setup tempvoice</strong></div>
-				<div class="mw-600 mx-auto mt-30 f-22 text-center">
-					<img src="i/Featured Banner Website 2.png" class="img-fluid mt-30 mt-md-0" />
+				<div class="text-center bold">
+					<h1>
+						<b class="gradient-header">Welcome to</b>
+						<div id="typed-strings">
+							<p>TempVoice</p>
+							<p>the next level</p>
+						</div>
+						<span id="typed"></span>
+					</h1>
 				</div>
-				<div class="mt-5 text-center buttons align-items-center">
+				<div class="mw-800 mx-auto mt-30 f-22 color-heading text-center text-adaptive">Start the setup assistent with <strong class="color-tv-purple">/setup tempvoice</strong> in your Discord Server!</div>
+				<div class="mw-600 mx-auto mt-30 f-22 text-center">
+					<img src="i/Featured Banner Website 2.png" alt="TempVoice Example" class="img-fluid mt-30 mt-md-0" />
+				</div>
+				<div class="mt-1 text-center buttons align-items-center">
 					<div>
 						<a href="https://docs.tempvoice.xyz/get-started" class="btn lg action-1 mx-15 mt-30">Get Started</a>
 						<a href="https://docs.tempvoice.xyz/introduction/commands" class="btn lg action-1 mx-15 mt-30">Commands</a>
@@ -187,5 +195,15 @@
 		<script src="js/jquery.maskedinput.min.js"></script>
 		<!-- Startup 3 JS (Custom js for all blocks) -->
 		<script src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed('#typed', {
+			  	stringsElement: '#typed-strings',
+			  	typeSpeed: 110,
+				backSpeed: 40,
+            	backDelay: 1600,
+                loop: true,
+			});
+		</script>
 	</body>
 </html>
