@@ -139,7 +139,7 @@
   line-height: 50px;
   padding: 0px 30px;
   border: none;
-  border-radius: 50px;
+  border-radius: 15px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
@@ -207,7 +207,6 @@
   border: none;
   background-size: 300% 100%;
 
-  border-radius: 50px;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
