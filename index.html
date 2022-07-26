@@ -88,7 +88,7 @@
 							<a href="https://docs.tempvoice.xyz/" target="_blank" class="link color-heading mx-15">Documentation</a>
 						</div>
 						<div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-end align-items-center">
-							<a href="https://tempvoice.xyz/setup" class="btn sm action-1">Add to Discord</a>
+							<a href="https://tempvoice.xyz/setup" class="btn sm action-1"">Add to Discord</a>
 						</div>
 					</div>
 				</div>
@@ -168,38 +168,38 @@
 					<div class="mt-30 item features-image сol-12 col-md-6 col-lg-4 active">
 						<div class="item-wrapper">
 							<div class="item-img">
-								<a href="https://docs.tempvoice.xyz/"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-03.png" alt="Copyright EXCORDO" data-slide-to="0" data-bs-slide-to="0"></a>
+								<a onmousedown="party.confetti(this)"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-03.png" alt="Copyright EXCORDO" data-slide-to="0" data-bs-slide-to="0"></a>
 							</div>
 						</div>
 					</div>
 					<div class="mt-30 item features-image сol-12 col-md-6 col-lg-4">
 						<div class="item-wrapper">
 							<div class="item-img">
-								<a href="https://docs.tempvoice.xyz/"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-04.png" alt="Copyright EXCORDO" data-slide-to="1" data-bs-slide-to="1"></a>
+								<a onmousedown="party.confetti(this)"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-04.png" alt="Copyright EXCORDO" data-slide-to="1" data-bs-slide-to="1"></a>
 							</div>
 						</div>
 					</div><div class="mt-30 item features-image сol-12 col-md-6 col-lg-4">
 						<div class="item-wrapper">
 							<div class="item-img">
-								<a href="https://docs.tempvoice.xyz/"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-02.png" data-slide-to="2" data-bs-slide-to="2" alt="Copyright EXCORDO"></a>
+								<a onmousedown="party.confetti(this)"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-02.png" data-slide-to="2" data-bs-slide-to="2" alt="Copyright EXCORDO"></a>
 							</div>
 						</div>
 					</div><div class="mt-30 item features-image сol-12 col-md-6 col-lg-4">
 						<div class="item-wrapper">
 							<div class="item-img">
-								<a href="https://docs.tempvoice.xyz/"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-01.png" data-slide-to="3" data-bs-slide-to="3" alt="Copyright EXCORDO"></a>
+								<a onmousedown="party.confetti(this)"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-01.png" data-slide-to="3" data-bs-slide-to="3" alt="Copyright EXCORDO"></a>
 							</div>
 						</div>
 					</div><div class="mt-30 item features-image сol-12 col-md-6 col-lg-4">
 						<div class="item-wrapper">
 							<div class="item-img">
-								<a href="https://docs.tempvoice.xyz/"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-05.png" data-slide-to="4" data-bs-slide-to="4" alt="Copyright EXCORDO"></a>
+								<a onmousedown="party.confetti(this)"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-05.png" data-slide-to="4" data-bs-slide-to="4" alt="Copyright EXCORDO"></a>
 							</div>	
 						</div>
 					</div><div class="mt-30 item features-image сol-12 col-md-6 col-lg-4">
 						<div class="item-wrapper">
 							<div class="item-img">
-								<a href="https://docs.tempvoice.xyz/"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-06.png" data-slide-to="5" data-bs-slide-to="5" alt="Copyright EXCORDO"></a>
+								<a onmousedown="party.confetti(this)"><img loading="lazy" decoding="async" height="100%" width="100%" src="i/Feature-06.png" data-slide-to="5" data-bs-slide-to="5" alt="Copyright EXCORDO"></a>
 							</div>	
 						</div>
 				</div>
@@ -381,11 +381,10 @@
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 		<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
 		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-		<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-		<script src="js/jquery.maskedinput.min.js"></script>
 		<!-- Startup 3 JS (Custom js for all blocks) -->
 		<script src="js/script.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
 		<script>
 			var typed = new Typed('#typed', {
 			  	stringsElement: '#typed-strings',
@@ -393,6 +392,13 @@
 				backSpeed: 40,
             	backDelay: 1600,
                 loop: true,
+			});
+		</script>
+		<script>
+			document.querySelector(".btn").addEventListener("click", function (e) {
+				party.confetti(this, {
+					count: party.variation.range(20, 40),
+				});
 			});
 		</script>
 	</body>
