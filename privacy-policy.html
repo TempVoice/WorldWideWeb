@@ -84,7 +84,7 @@
 							<a href="https://docs.tempvoice.xyz/" target="_blank" class="link color-heading mx-15">Documentation</a>
 						</div>
 						<div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-end align-items-center">
-							<a href="https://tempvoice.xyz/setup" class="btn sm action-1">Add to Discord</a>
+							<a href="https://patreon.com/tempvoice" onmouseover="party.confetti(this)" class="btn sm action-1">Get Premium</a>
 						</div>
 					</div>
 				</div>
@@ -214,5 +214,24 @@
 		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 		<!-- Startup 3 JS (Custom js for all blocks) -->
 		<script src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+		<script>
+			var typed = new Typed('#typed', {
+			  	stringsElement: '#typed-strings',
+			  	typeSpeed: 50,
+				backSpeed: 20,
+            	backDelay: 1600,
+				smartBackspace: false,
+                loop: true,
+			});
+		</script>
+		<script>
+			document.querySelector(".btn").addEventListener("click", function (e) {
+				party.confetti(this, {
+					count: party.variation.range(20, 40),
+				});
+			});
+		</script>
 	</body>
 </html>
