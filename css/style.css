@@ -4987,11 +4987,5 @@ b, strong {
 }
 ::-webkit-scrollbar-thumb{
   border-radius: 10px;
-  background: #807BFF
-}
-::-webkit-scrollbar-thumb:hover{
-  background: #ffffff
-}
-::-webkit-scrollbar-thumb:active{
-  background: #ffffff
+  background: linear-gradient(#807BFF, #FB73FA);
 }
