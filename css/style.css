@@ -4977,3 +4977,21 @@ b, strong {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #36393f
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: #807BFF
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #ffffff
+}
+::-webkit-scrollbar-thumb:active{
+  background: #ffffff
+}
